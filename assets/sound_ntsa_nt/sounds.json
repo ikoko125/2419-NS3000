@@ -1,0 +1,74 @@
+{
+    "train.ntsa_brakerelease": {
+    "category": "neutral",
+    "sounds": [
+      "train/ntsa_brakerelease"
+    ]
+  },
+    "train.ntsa_doorclose": {
+    "category": "neutral",
+    "sounds": [
+      "train/ntsa_doorclose"
+    ]
+  },
+    "train.ntsa_tin": {
+    "category": "neutral",
+    "sounds": [
+      "train/ntsa_tin"
+    ]
+  },
+    "train.ntsa_dooropen": {
+    "category": "neutral",
+    "sounds": [
+      "train/ntsa_dooropen"
+    ]
+  },
+      "train.ntsa_run1": {
+    "category": "neutral",
+    "sounds": [
+      "train/ntsa_run1"
+    ]
+  },
+   "train.ntsa_run2": {
+    "category": "neutral",
+    "sounds": [
+      "train/ntsa_run2"
+    ]
+  },
+  "train.ntsa_run3": {
+    "category": "neutral",
+    "sounds": [
+      "train/ntsa_run3"
+    ]
+  },
+  "train.ntsa_run4": {
+    "category": "neutral",
+    "sounds": [
+      "train/ntsa_run4"
+    ]
+  },
+  "train.ntsa_run5": {
+    "category": "neutral",
+    "sounds": [
+      "train/ntsa_run5"
+    ]
+  },
+  "train.ntsa_run6": {
+    "category": "neutral",
+    "sounds": [
+      "train/ntsa_run6"
+    ]
+  },
+    "train.rtm_2419_d_o": {
+        "category": "neutral",
+        "sounds": [
+            "train/2419_d_o"
+        ]
+    },
+    "train.rtm_2419_horn": {
+        "category": "neutral",
+        "sounds": [
+            "train/2419_horn"
+        ]
+    }
+}

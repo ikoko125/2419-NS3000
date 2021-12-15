@@ -1,0 +1,167 @@
+{
+
+"trainName": "Bantetsu2419_3000_08F",
+
+"trainType": "EC",
+
+"trainModel2": { "modelFile": "ModelTrain_Bantetsu2419_3000Tu.mqo",
+                    "textures": [["rollsign", "textures/train/2419/2419rollsign.png", "AlphaBlend,Light"],
+				     ["body", "textures/train/2419/2419_Mc_3000.png", "Light"],
+				["mat1", "textures/train/2419/3002.png", "AlphaBlend"]],"rendererPath": "scripts/Render24193000Mc.js"},
+
+"bogieModel2": { "modelFile": "TDT-03B_2419.mqo",
+                   "textures": [["default", "textures/train/2419/TDT-01.png"]],
+				   "rendererPath": "scripts/Render_TDT01-F3.js"},
+
+"buttonTexture": "textures/train/2419/button_8F.png",
+
+"soundScriptPath": "scripts/sound_AB_E231_Urban_Motor.js",
+"sound_BrakeRelease": "sound_ntsa_nt:train.ntsa_brakerelease",
+"sound_BrakeRelease2": "train.brakeR_w",
+"sound_DoorOpen": "sound_iwsmlib:RTMLib.sound.TKdoorOpen",
+"sound_DoorClose": "sound_iwsmlib:RTMLib.sound.TKdoorClose",
+"sound_Horn": "train.rtm_wh_00l",
+
+
+
+"rollsignTexture": "textures/train/2419/2419_roll.png",
+"rollsignNames": [
+"None",
+"TestRun",
+"OutofService",
+"Extra",
+"Group",
+"Bantetsu",
+"[LOCAL]AOBANE",
+"[LOCAL]SHIROISO",
+"[LOCAL]SHINASHIHAGA",
+"[LOCAL]ASHIKAGA",
+"[LOCAL]HINABISHI",
+"[LOCAL]ASHIHARA",
+"[LOCAL]NISHIASHIHARA",
+"[LOCAL]SHIROSAKI",
+"[LOCAL]TATEHAMA",
+"[LOCAL]SHINURASAKI",
+"[LOCAL]URASAKI",
+"[LOCAL]TAKAKU",
+"[LOCAL]SEGAWA",
+"[LOCAL]KAEDEGAHARA",
+"[LOCAL]MINAMIASHIHARA",
+"[LOCAL]SHINASHIHARA",
+"[LOCAL]NAGAMORI",
+"[RAPID]AOBANE",
+"[RAPID]SHIROISO",
+"[RAPID]SHINASHIHAGA",
+"[RAPID]ASHIKAGA",
+"[RAPID]HINABISHI",
+"[RAPID]ASHIHARA",
+"[RAPID]NISHIASHIHARA",
+"[RAPID]SHIROSAKI",
+"[RAPID]TATEHAMA",
+"[RAPID]SHINURASAKI",
+"[RAPID]URASAKI",
+"[RAPID]TAKAKU",
+"[RAPID]SEGAWA",
+"[RAPID]KAEDEGAHARA",
+"[RAPID]MINAMIASHIHARA",
+"[RAPID]SHINASHIHARA",
+"[RAPID]NAGAMORI",
+"[EXPRESS]AOBANE",
+"[EXPRESS]SHIROISO",
+"[EXPRESS]SHINASHIHAGA",
+"[EXPRESS]ASHIKAGA",
+"[EXPRESS]HINABISHI",
+"[EXPRESS]ASHIHARA",
+"[EXPRESS]NISHIASHIHARA",
+"[EXPRESS]SHIROSAKI",
+"[EXPRESS]TATEHAMA",
+"[EXPRESS]SHINURASAKI",
+"[EXPRESS]URASAKI",
+"[EXPRESS]TAKAKU",
+"[EXPRESS]SEGAWA",
+"[EXPRESS]KAEDEGAHARA",
+"[EXPRESS]MINAMIASHIHARA",
+"[EXPRESS]SHINASHIHARA",
+"[EXPRESS]NAGAMORI",
+"[LTDEXP]AOBANE",
+"[LTDEXP]SHIROISO",
+"[LTDEXP]SHINASHIHAGA",
+"[LTDEXP]ASHIKAGA",
+"[LTDEXP]HINABISHI",
+"[LTDEXP]ASHIHARA",
+"[LTDEXP]NISHIASHIHARA",
+"[LTDEXP]SHIROSAKI",
+"[LTDEXP]TATEHAMA",
+"[LTDEXP]SHINURASAKI",
+"[LTDEXP]URASAKI",
+"[LTDEXP]TAKAKU",
+"[LTDEXP]SEGAWA",
+"[LTDEXP]KAEDEGAHARA",
+"[LTDEXP]MINAMIASHIHARA",
+"[LTDEXP]SHINASHIHARA",
+"[LTDEXP]NAGAMORI"
+],  
+"rollsigns": [],
+
+
+
+
+"door_left": [
+ {"objects": ["door_LF"],
+ "pos": [0.0, 0.0, 0.0],
+ "transform": [[0.0, 0.0, 0.65]]},
+ {"objects": ["door_LB"],
+ "pos": [0.0, 0.0, 0.0],
+ "transform": [[0.0, 0.0, -0.65]]}
+],
+
+"door_right": [
+ {"objects": ["door_RF"],
+ "pos": [0.0, 0.0, 0.0],
+ "transform": [[0.0, 0.0, 0.65]]},
+ {"objects": ["door_RB"],
+ "pos": [0.0, 0.0, 0.0],
+ "transform": [[0.0, 0.0, -0.65]]}
+],
+
+"pantograph_front": [{"objects": ["panta_D2_1"],	"pos": [0.0, 3.0118, -6.6860],	"transform": [[-14, 1.0, 0.0, 0.0]],
+"childParts": [
+	{"objects": ["panta_D2_2"],	"pos": [0.0, 3.7151, -7.8641],	"transform": [[24, 1.0, 0.0, 0.0]],
+	"childParts": [
+		{"objects": ["panta_D2_3"],	"pos": [0.0, 4.5998, -6.3814],	"transform": [[-10, 1.0, 0.0, 0.0]]},
+		{"objects": ["panta_D2_5"],	"pos": [0.0, 3.5258, -7.9758],	"transform": [[-28, 1.0, 0.0, 0.0]]} ] },
+	{"objects": ["panta_D2_4"],	"pos": [0.0, 3.6084, -7.7523],	"transform": [[24, 1.0, 0.0, 0.0]]} ] }
+],
+
+ "pantograph_back": [{"objects": ["panta_C1_1"],	"pos": [0.0, 3.0118, 6.6860],	"transform": [[14, 1.0, 0.0, 0.0]],
+"childParts": [
+	{"objects": ["panta_C1_2"],	"pos": [0.0, 3.7151, 7.8641],	"transform": [[-24, 1.0, 0.0, 0.0]],
+	"childParts": [
+		{"objects": ["panta_C1_3"],	"pos": [0.0, 4.5998, 6.3814],	"transform": [[10, 1.0, 0.0, 0.0]]},
+		{"objects": ["panta_C1_5"],	"pos": [0.0, 3.5258, 7.9758],	"transform": [[28, 1.0, 0.0, 0.0]]} ] },
+	{"objects": ["panta_C1_4"],	"pos": [0.0, 3.6084, 7.7523],	"transform": [[-24, 1.0, 0.0, 0.0]]} ] }
+],
+
+"seatPos": [
+	[12, 0, 130, 2], [12, 0, 110, 2], [12, 0, 90, 2], [12, 0, 70, 2], [12, 0, 50, 2], [12, 0, 30, 2], [12, 0, 10, 2],
+	[12, 0, -130, 2], [12, 0, -110, 2], [12, 0, -90, 2], [12, 0, -70, 2], [12, 0, -50, 2], [12, 0, -30, 2], [12, 0, -10, 2],
+	[-12, 0, 130, 2], [-12, 0, 110, 2], [-12, 0, 90, 2], [-12, 0, 70, 2], [-12, 0, 50, 2], [-12, 0, 30, 2], [-12, 0, 10, 2],
+	[-12, 0, -130, 2], [-12, 0, -110, 2], [-12, 0, -90, 2], [-12, 0, -70, 2], [-12, 0, -50, 2], [-12, 0, -30, 2], [-12, 0, -10, 2]
+],
+
+"interiorLights": [
+	{"pos": [0.0, 2.5, 5.0]},
+	{"pos": [0.0, 2.5, -5.0]}
+],
+
+"renderLight": true,
+"smoothing": true,
+"maxSpeed": [0.40, 0.84, 1.08, 1.39, 1.60],
+"muteJointSound": "true",
+"accelerateion" : 0.0024304,
+"wheelRotationSpeed": 0.6,
+"playerPos": [[0.8, 0.2, 9.0], [-0.8, 0.2, -9.0]],
+"bogiePos": [[0.0, 0.0, 7.0], [0.0, 0.0, -7.0]],
+"trainDistance": 10.0
+
+}

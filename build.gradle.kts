@@ -36,7 +36,7 @@ dependencies {
     api(kotlin("stdlib"))
 
     //Forge
-    add("minecraft", "net.minecraftforge:forge:1.12.2-14.23.5.2855")
+    add("minecraft", "net.minecraftforge:forge:1.12.2-14.23.5.2860")
 
     //NGTLib and RTM
     //If you want to update, see https://www.cursemaven.com/

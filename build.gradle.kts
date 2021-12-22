@@ -21,7 +21,7 @@ buildscript {
 apply(plugin = "net.minecraftforge.gradle")
 
 //Change this
-group = "dev.siro256.rtmpack.template"
+group = "com.github.ikoko125.2419-ns3000"
 version = "1.0.0-SNAPSHOT"
 
 repositories {

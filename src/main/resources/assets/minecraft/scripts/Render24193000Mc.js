@@ -13,64 +13,15 @@ importPackage(Packages.jp.ngt.ngtlib.renderer); //NGTTessellator
 importPackage(Packages.jp.ngt.ngtlib.io); //NGTLog
 importPackage(Packages.net.minecraft.util); //ResourceLocation
 importPackage(Packages.org.lwjgl.input); //Keyboard
+importPackage(Packages.com.github.ikoko125.banetsu2419_ns3000.model);
 
 //データ保存用 持ち越しが可能
 var prevTickData = {};
 var rollsignAnimationTimeData = {};
 
 
-function init(par1, par2) {
-    //オブジェクト
-    body = renderer.registerParts(new Parts("obj1", "obj2", "shade", "panta", "panta_C1", "panta_C1_1", "panta_C1_2", "panta_C1_3", "panta_C1_4", "panta_C1_5"));
-    pre = renderer.registerParts(new Parts("obj1", "obj2", "shade", "panta", "panta_C1", "panta_C1_1", "panta_C1_2", "panta_C1_3", "panta_C1_4", "panta_C1_5", "F1", "B1", "door_LB", "door_LF", "door_RF", "door_RB"))
-
-
-
-
-    //ドア
-    rollsign_off = renderer.registerParts(new Parts("rollsign_off"));
-    doorFL = renderer.registerParts(new Parts("door_LF"));
-    doorBL = renderer.registerParts(new Parts("door_LB"));
-    doorFR = renderer.registerParts(new Parts("door_RF"));
-    doorBR = renderer.registerParts(new Parts("door_RB"));
-    ATS_PANEL = renderer.registerParts(new Parts("ATS_PANEL"));
-    R_ATS = renderer.registerParts(new Parts("R_ATS"));
-    ATS_B = renderer.registerParts(new Parts("ATS_B"));
-    ATS_PA = renderer.registerParts(new Parts("ATS_PA"));
-    NO_ATS = renderer.registerParts(new Parts("NO_ATS"));
-    L0 = renderer.registerParts(new Parts("L0"));
-    L15 = renderer.registerParts(new Parts("L15"));
-    L25 = renderer.registerParts(new Parts("L25"));
-    L35 = renderer.registerParts(new Parts("L35"));
-    L45 = renderer.registerParts(new Parts("L45"));
-    L55 = renderer.registerParts(new Parts("L55"));
-    L65 = renderer.registerParts(new Parts("L65"));
-    L75 = renderer.registerParts(new Parts("L75"));
-    L85 = renderer.registerParts(new Parts("L85"));
-    L95 = renderer.registerParts(new Parts("L95"));
-    L100 = renderer.registerParts(new Parts("L100"));
-    L110 = renderer.registerParts(new Parts("L110"));
-    L120 = renderer.registerParts(new Parts("L120"));
-    L130 = renderer.registerParts(new Parts("L130"));
-    F = renderer.registerParts(new Parts("F"));
-    B = renderer.registerParts(new Parts("B"));
-    F1 = renderer.registerParts(new Parts("F1"));
-    B1 = renderer.registerParts(new Parts("B1"));
-    car1 = renderer.registerParts(new Parts("car1"));
-    car2 = renderer.registerParts(new Parts("car2"));
-    car3 = renderer.registerParts(new Parts("car3"));
-    car4 = renderer.registerParts(new Parts("car4"));
-    car5 = renderer.registerParts(new Parts("car5"));
-    car6 = renderer.registerParts(new Parts("car6"));
-    car7 = renderer.registerParts(new Parts("car7"));
-    car8 = renderer.registerParts(new Parts("car8"));
-    car9 = renderer.registerParts(new Parts("car9"));
-    car10 = renderer.registerParts(new Parts("car10"));
-    car11 = renderer.registerParts(new Parts("car11"));
-    car12 = renderer.registerParts(new Parts("car12"));
-    car13 = renderer.registerParts(new Parts("car13"));
-    car14 = renderer.registerParts(new Parts("car14"));
-    car15 = renderer.registerParts(new Parts("car15"));
+function init(modelSet, modelObject) {
+    Model3000Mc.registerObjects(renderer);
 }
 
 

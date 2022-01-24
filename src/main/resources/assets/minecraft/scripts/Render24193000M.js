@@ -14,25 +14,15 @@ importPackage(Packages.jp.ngt.ngtlib.io);//NGTLog
 importPackage(Packages.jp.kaiz.atsassistmod.api);//ControlTrain
 importPackage(Packages.net.minecraft.util);//ResourceLocation
 importPackage(Packages.org.lwjgl.input);//Keyboard
+importPackage(Packages.com.github.ikoko125.banetsu2419_ns3000.model);
 
 //データ保存用 持ち越しが可能
 var prevTickData = {};
 var rollsignAnimationTimeData = {};
 
 
-function init(par1, par2) {
-    //オブジェクト
-    body = renderer.registerParts(new Parts("obj1", "obj2", "panta", "panta_D2", "panta_D2_1", "panta_D2_2", "panta_D2_3", "panta_D2_4", "panta_D2_5"));
-
-
-
-    
-    //ドア
-    rollsign_off = renderer.registerParts(new Parts("rollsign_off"));
-    door_FL = renderer.registerParts(new Parts("door_LF"));
-    door_BL = renderer.registerParts(new Parts("door_LB"));
-    door_FR = renderer.registerParts(new Parts("door_RF"));
-    door_BR = renderer.registerParts(new Parts("door_RB"));
+function init(modelSet, modelObject) {
+    Model3000M.registerObjects(renderer);
 }
 
 function Monitor_1(entity){

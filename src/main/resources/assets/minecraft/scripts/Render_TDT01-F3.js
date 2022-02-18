@@ -2,12 +2,10 @@ var renderClass = "jp.ngt.rtm.render.VehiclePartsRenderer";
 importPackage(Packages.org.lwjgl.opengl);
 importPackage(Packages.jp.ngt.rtm.render);
 importPackage(Packages.jp.ngt.ngtlib.math);
+importPackage(Packages.com.github.ikoko125.banetsu2419_ns3000.model);
 
-function init(par1, par2)
-{
-	body = renderer.registerParts(new Parts("body"));
-	wheel1 = renderer.registerParts(new Parts("wheel1"));
-	wheel2 = renderer.registerParts(new Parts("wheel2"));
+function init(modelSet, modelObject) {
+    ModelTDT01F3.registerObjects(renderer);
 }
 
 function render(entity, pass, par3)

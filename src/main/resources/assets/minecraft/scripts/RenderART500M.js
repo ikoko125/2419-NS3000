@@ -2,33 +2,10 @@ var renderClass = "jp.ngt.rtm.render.VehiclePartsRenderer";
 importPackage(Packages.org.lwjgl.opengl);
 importPackage(Packages.jp.ngt.rtm.render);
 importPackage(Packages.jp.ngt.ngtlib.math);
+importPackage(Packages.com.github.ikoko125.banetsu2419_ns3000.model);
 
-function init(par1, par2)
-{
-	body = renderer.registerParts(new Parts("InFace", "ExFace", "obj1", "obj2", "obj3"));
-	doorLF = renderer.registerParts(new Parts("doorLF"));
-	doorLB = renderer.registerParts(new Parts("doorLB"));
-	doorRF = renderer.registerParts(new Parts("doorRF"));
-	doorRB = renderer.registerParts(new Parts("doorRB"));
-	doorLF1 = renderer.registerParts(new Parts("doorLF1"));
-	doorLB1 = renderer.registerParts(new Parts("doorLB1"));
-	doorRF1 = renderer.registerParts(new Parts("doorRF1"));
-	doorRB1 = renderer.registerParts(new Parts("doorRB1"));
-	panta1 = renderer.registerParts(new Parts("panta1"));
-	panta2 = renderer.registerParts(new Parts("panta2"));
-	panta3 = renderer.registerParts(new Parts("panta3"));
-	panta4 = renderer.registerParts(new Parts("panta4"));
-	car1 = renderer.registerParts(new Parts("1car"));
-	car2 = renderer.registerParts(new Parts("2car"));
-	car3 = renderer.registerParts(new Parts("3car"));
-	car4 = renderer.registerParts(new Parts("4"));
-	car5 = renderer.registerParts(new Parts("5"));
-	car6 = renderer.registerParts(new Parts("6"));
-	car7 = renderer.registerParts(new Parts("7"));
-	car8 = renderer.registerParts(new Parts("8"));
-	car9 = renderer.registerParts(new Parts("9"));
-	car10 = renderer.registerParts(new Parts("10"));
-	nightWindow = renderer.registerParts(new Parts("Nightwindow"));
+function init(modelSet, modelObject) {
+    ModelART500M.registerObjects(renderer);
 }
 
 

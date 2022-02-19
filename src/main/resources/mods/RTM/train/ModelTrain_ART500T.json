@@ -14,7 +14,7 @@
 "buttonTexture": "textures/train/2419/button_2419M4.png",
 
 "soundScriptPath": "scripts/hi03SoundLib_TMT5300.js",
-"sound_BrakeRelease": "sound_hi03SoundLib:RTM.Brake.BR2N",
+"sound_BrakeRelease": "sound_hi03soundlib:RTM.Brake.BR2N",
 "sound_BrakeRelease2": "train.brakeR_w",
 "sound_Stop": "train.rtm_cop",
 "sound_Horn": "sound_hi03SoundLib:RTM.Horn.Horn1",

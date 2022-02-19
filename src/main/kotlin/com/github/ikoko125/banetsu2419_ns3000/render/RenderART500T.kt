@@ -8,6 +8,7 @@ import org.lwjgl.opengl.GL11
 
 @Suppress("unused")
 object RenderART500T {
+    @Suppress("DuplicatedCode")
     @JvmStatic
     fun render(renderer: VehiclePartsRenderer, entity: EntityTrainBase?, pass: Int) {
         val model = ModelART500T.getModel(renderer.modelName)!!
@@ -38,6 +39,7 @@ object RenderART500T {
         }
     }
 
+    @Suppress("DuplicatedCode")
     private fun renderDoor(renderer: VehiclePartsRenderer, entity: EntityTrainBase?) {
         val moveL = if (entity != null) NGTMath.sigmoid(entity.doorMoveL / 5.0, 5.0).toFloat() else 0.0f
         val moveR = if (entity != null) NGTMath.sigmoid(entity.doorMoveR / 5.0, 5.0).toFloat() else 0.0f
@@ -46,7 +48,6 @@ object RenderART500T {
         val time = renderer.mcTime
         val model = ModelART500T.getModel(renderer.modelName)!!
 
-        @Suppress("DuplicatedCode")
         if (time !in 401..12999) {
             GL11.glPushMatrix()
             GL11.glTranslatef(moveL * 0.07f, 0.0f, doorMoveL * 0.7f)

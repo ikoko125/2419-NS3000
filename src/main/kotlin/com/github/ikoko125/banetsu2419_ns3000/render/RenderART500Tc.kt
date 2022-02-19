@@ -9,6 +9,7 @@ import org.lwjgl.opengl.GL11
 
 @Suppress("unused")
 object RenderART500Tc {
+    @Suppress("DuplicatedCode")
     @JvmStatic
     fun render(renderer: VehiclePartsRenderer, entity: EntityTrainBase?, pass: Int) {
         val model = ModelART500Tc.getModel(renderer.modelName)!!
@@ -41,6 +42,7 @@ object RenderART500Tc {
         }
     }
 
+    @Suppress("DuplicatedCode")
     private fun renderDoor(renderer: VehiclePartsRenderer, entity: EntityTrainBase?) {
         val moveL = if (entity != null) NGTMath.sigmoid(entity.doorMoveL / 5.0, 5.0).toFloat() else 0.0f
         val moveR = if (entity != null) NGTMath.sigmoid(entity.doorMoveR / 5.0, 5.0).toFloat() else 0.0f

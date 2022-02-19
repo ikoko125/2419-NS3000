@@ -6,6 +6,7 @@ import jp.ngt.rtm.entity.train.EntityTrainBase
 import jp.ngt.rtm.render.VehiclePartsRenderer
 import org.lwjgl.opengl.GL11
 
+@Suppress("unused")
 object RenderART500T {
     @JvmStatic
     fun render(renderer: VehiclePartsRenderer, entity: EntityTrainBase?, pass: Int) {
